@@ -1,4 +1,4 @@
-<h1 align="center"> NasterMind </h1>
+<h1 align="center"> MasterMind </h1>
 
 <p align="center">
 My Mastermind Communities organized in one link.<br/>

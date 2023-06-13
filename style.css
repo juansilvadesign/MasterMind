@@ -10,9 +10,11 @@
 }
   
 :root {
-  --text-color: rgb(0,48,70);
-  --bg-url: rgb(173,217,231);
-  --stroke-color: rgba(0, 0, 0, 0.5);
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-color: rgba(15, 17, 15, 1);
+  --stroke-color: white;
+  --stroke-color-hover: rgba(105, 251, 140, 1);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
@@ -20,17 +22,20 @@
 }
   
 .space {
-  --text-color: white;
+  --text-color: rgba(15, 17, 15, 1);
   --bg-url: url(./assets/bg-mobile-space.png);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --bg-color: white;
+  --stroke-color: rgba(15, 17, 15, 1);
+  --stroke-color-hover: white;
+  --surface-color: rgba(15, 17, 15, 0.05);
+  --surface-color-hover: rgba(105, 251, 140, 1);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  background-color: var(--bg-color);
   height: 100vh;
 }
 
@@ -164,7 +169,8 @@ ul li a {
 /* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  color: var(--stroke-color-hover);
+  border: 1.5px solid var(--stroke-color-hover);
 }
 
 ul li a img {
@@ -184,70 +190,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: rgb(173,217,231);
+    --bg-url: url(./assets/bg-desktop.png);
   }
 
   .space {
     --bg-url: url(./assets/bg-desktop-space.png);
-  }
-}
-
-@media (min-width: 1130px) {
-  :root {
-    --bg-url: rgb(173,217,231);
-  }
-
-  .space {
-    --bg-url: url(./assets/bg-desktop-space.png);
-  }
-
-  #hero-bg img {
-    display: flex;
-    position: absolute;
-    margin-top: 100px;
-    width: 300px;
-    right: 20px;
-    -webkit-animation: updown 3s linear infinite;
-    animation: updown 3s linear infinite;
-  }
-}
-
-@media (min-width: 1350px) {
-  :root {
-    --bg-url: rgb(173,217,231);
-  }
-
-  .space {
-    --bg-url: url(./assets/bg-desktop-space.png);
-  }
-
-  #hero-bg img {
-    display: flex;
-    position: absolute;
-    margin-top: 100px;
-    width: 300px;
-    right: 97.5px;
-    -webkit-animation: updown 3s linear infinite;
-    animation: updown 3s linear infinite;
-  }
-}
-
-@media (min-width: 1660px) {
-  :root {
-    --bg-url: rgb(173,217,231);
-  }
-
-  .space {
-    --bg-url: url(./assets/bg-desktop-space.png);
-  }
-
-  #hero-bg img {
-    display: flex;
-    position: absolute;
-    width: 400px;
-    right: 130px;
-    -webkit-animation: updown 3s linear infinite;
-    animation: updown 3s linear infinite;
   }
 }
 

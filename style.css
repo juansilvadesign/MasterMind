@@ -11,12 +11,13 @@
   
 :root {
   --text-color: white;
+  --text-color-hover: #141414;
   --bg-url: url(./assets/bg-mobile.jpg);
   --bg-color: rgba(15, 17, 15, 1);
   --stroke-color: white;
   --stroke-color-hover: rgba(105, 251, 140, 1);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color: radial-gradient(230.25% 170.56% at -15.63% -12.59%, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.00) 100%);
+  --surface-color-hover: rgba(105, 251, 140, 1);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
@@ -151,7 +152,8 @@ ul li a {
   align-items: center;
   justify-content: center;
 
-  padding: 16px 24px;
+  padding: 8px 24px;
+  gap: 0.5rem;
 
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
@@ -169,7 +171,7 @@ ul li a {
 /* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
-  color: var(--stroke-color-hover);
+  color: var(--text-color-hover);
   border: 1.5px solid var(--stroke-color-hover);
 }
 

@@ -29,11 +29,10 @@ This project was developed with the following technologies:
 - JavaScript
 - Git & Github
 - Figma
-- <a target="_blank" href="https://fontawesome.com/icons">Font Awesome</a> & <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ## 💻 Project
 
-This Project is a link aggregator that organizes all my MasterMind Communities and it's personalized with HTML, CSS, and JavaScript.
+This Project is a link aggregator that organizes all the MasterMind Communities I'm in and it's customised with HTML, CSS, and JavaScript.
 
 - [Access the finished project. Online.](https://juanpablodesigner.github.io/MasterMind/)
 
@@ -43,4 +42,4 @@ This project is under the MIT license.
 
 ---
 
-💻 Made by Juan Silva, UX Designer and Dev.
+💻 Made by Juan Silva, UX/UI Designer and JS Dev.

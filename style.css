@@ -37,6 +37,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   background-color: var(--bg-color);
+  background-attachment: fixed;
   height: 100vh;
 }
 

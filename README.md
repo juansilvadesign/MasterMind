@@ -18,7 +18,7 @@ You can see the website by <a href="https://juanpablodesigner.github.io/MasterMi
 <br>
 
 <p align="center">
-  <img alt="project preview" src="#" width="100%">
+  <img alt="project preview" src="https://github.com/JuanPabloDesigner/images-storage/assets/113949476/d5b27d94-9909-4d66-a18f-d84ca199ea38" width="100%">
 </p>
 
 ## 🚀 Techs

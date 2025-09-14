@@ -2,7 +2,7 @@
 
 <p align="center">
 My Mastermind Communities organized in one link.<br/>
-You can see the website by <a href="https://juanpablodesigner.github.io/MasterMind/" target="_blank">clicking here.</a>
+You can see the website by <a href="https://juansilvadesign.github.io/MasterMind/" target="_blank">clicking here.</a>
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ You can see the website by <a href="https://juanpablodesigner.github.io/MasterMi
 <br>
 
 <p align="center">
-  <img alt="project preview" src="https://github.com/JuanPabloDesigner/images-storage/assets/113949476/d5b27d94-9909-4d66-a18f-d84ca199ea38" width="100%">
+  <img alt="project preview" src="https://github.com/juansilvadesign/images-storage/assets/113949476/d5b27d94-9909-4d66-a18f-d84ca199ea38" width="100%">
 </p>
 
 ## 🚀 Techs
@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 This Project is a link aggregator that organizes all the MasterMind Communities I'm in and it's customised with HTML, CSS, and JavaScript.
 
-- [Access the finished project. Online.](https://juanpablodesigner.github.io/MasterMind/)
+- [Access the finished project. Online.](https://juansilvadesign.github.io/MasterMind/)
 
 ## :memo: Licence
 
